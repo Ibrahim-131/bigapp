@@ -19,5 +19,22 @@ Route::get('/', function () {
 */
 
 Route::get('/', function () {
-    return view('show');
+    return view('home');
+});
+
+Route::get('/servive', function () {
+    return view('service');
+});
+
+Route::get('/about', function () {
+    return view('about');
+});
+
+
+Route::get('/profile', function () {
+    return view('profile');
+});
+
+Route::get('/link', function () {
+    return view('link');
 });
